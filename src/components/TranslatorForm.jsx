@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useTranslator } from "../hooks/useTranslator";
+import  useTranslator  from "../hooks/useTranslator";
 import LanguageSelect from "./LanguageSelect";
 import ResultBox from "./ResultBox";
 
@@ -39,5 +39,6 @@ function TranslatorForm() {
     </div>
   );
 }
+
 
 export default TranslatorForm;
